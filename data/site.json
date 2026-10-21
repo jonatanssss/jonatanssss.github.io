@@ -1,0 +1,43 @@
+{
+  "name": "Jonatan Pardamean Manurung",
+  "shortName": "Jonatan Manurung",
+  "email": "jonatan.pmanurung@gmail.com",
+  "github": "https://github.com/jonatanssss",
+  "linkedin": "https://www.linkedin.com/in/jonatan-pm/",
+  "location": "Indonesia",
+  "headline": "Exploring engineering through physics and AI.",
+  "introduction": "I'm a physics undergraduate at Universitas Indonesia, exploring practical problems through computational projects, materials research, and technology education.",
+  "experience": [
+    {
+      "period": "2026 — Present",
+      "role": "Research Intern",
+      "organization": "BRIN",
+      "detail": "Research Center for Composites and Biomaterials",
+      "description": "Supporting research through literature reviews, proposal development, and patent drafting, alongside practical exposure to composite fabrication and vacuum bagging.",
+      "tags": ["Materials research", "Technical writing", "Lab experience"]
+    },
+    {
+      "period": "2026 — Present",
+      "role": "AI & Robotics Tutor",
+      "organization": "AiCI",
+      "detail": "Artificial Intelligence Center Indonesia",
+      "description": "Helping primary school students explore coding and robotics through guided projects, live demonstrations, and hands-on debugging.",
+      "tags": ["Teaching", "Robotics", "Problem solving"]
+    },
+    {
+      "period": "2023 — Present",
+      "role": "Mathematics & Physics Tutor",
+      "organization": "Independent",
+      "detail": "Private tutoring",
+      "description": "Making challenging ideas easier to understand through tailored explanations, worked examples, and practice that meets each student where they are.",
+      "tags": ["Mathematics", "Physics", "Communication"]
+    }
+  ],
+  "about": [
+    "Physics is where I started. The questions it leads me to often cross into engineering, computation, and the ways we build things that work in the real world.",
+    "At BRIN, I'm learning how research moves from literature to the lab. As a tutor, I'm learning how to make technical ideas accessible. Along the way, I use projects to explore new tools, test ideas, and keep asking better questions."
+  ],
+  "education": { "degree": "B.Sc. in Physics", "institution": "Universitas Indonesia", "graduation": "Expected 2027" },
+  "interests": ["Engineering", "Artificial intelligence", "Computational methods", "Materials", "Technology education"],
+  "training": ["Data Science with R — Course-Net", "IBM SkillsBuild courses — Hacktiv8"]
+}

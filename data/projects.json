@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "concrete-crack-classification",
+    "number": "01",
+    "title": "Classifying cracks in concrete.",
+    "formalTitle": "Concrete Crack Classification",
+    "category": "Computer vision / Engineering",
+    "description": "Exploring concrete surface inspection through deep learning and image analysis.",
+    "summary": "An academic exploration of how a residual neural network can distinguish cracked concrete surfaces from intact ones, with a separate study of image features.",
+    "tags": ["Python", "PyTorch", "OpenCV"],
+    "status": "Academic prototype",
+    "repository": "https://github.com/jonatanssss/WallsResNet-crack-classifier",
+    "image": "crack-study.svg",
+    "imageAlt": "Conceptual concrete surface with a branching crack and image-analysis grid",
+    "imageCaption": "Concept illustration · Concrete surface analysis",
+    "intro": "A small crack can carry a lot of information. This project explores a common computer-vision task: identifying visible cracks in concrete surface images.",
+    "sections": [
+      { "eyebrow": "01 / The question", "title": "What can an image tell us?", "paragraphs": ["Concrete inspection often begins with what we can see. The challenge is separating a crack from the surrounding texture, shadows, and marks. This project approaches that problem as an image-classification task."] },
+      { "eyebrow": "02 / The approach", "title": "From surface images to a prediction.", "paragraphs": ["The notebook prepares grayscale images at 128 × 128 pixels and trains a custom residual network in PyTorch. Augmentation and a weighted loss are used in the training workflow.", "A separate analysis explores texture, edges, and other image features using OpenCV and numerical methods. These features are exploratory; they are not additional inputs to the classifier."], "steps": ["Prepare and augment images", "Train the residual classifier", "Inspect classification results"] },
+      { "eyebrow": "03 / Project context", "title": "A starting point for deeper learning.", "paragraphs": ["This is an AI-assisted academic prototype. The repository documents the implementation, and it is a starting point for strengthening my understanding of model design, evaluation, and reproducibility.", "The source notebook is available on GitHub. Reported results have not been independently reproduced for this portfolio."] },
+      { "eyebrow": "04 / Next questions", "title": "Beyond the training dataset.", "paragraphs": ["The next steps are to inspect missed cracks, separate model selection from final testing, and evaluate images captured under different conditions. Comparing the network with a simpler baseline would help clarify what the added complexity contributes."] }
+    ],
+    "note": "The project artwork is conceptual. It does not represent a model prediction or an engineering inspection result."
+  },
+  {
+    "slug": "hemoglobin-estimation",
+    "number": "02",
+    "title": "Estimating hemoglobin from images.",
+    "formalTitle": "Non-Invasive Hemoglobin Estimation",
+    "category": "Machine learning / Image processing",
+    "description": "Investigating the relationship between image color features and hemoglobin levels.",
+    "summary": "An academic machine-learning project exploring whether color features from conjunctival images can support hemoglobin estimation.",
+    "tags": ["Python", "scikit-learn", "OpenCV"],
+    "status": "Academic prototype",
+    "repository": "https://github.com/jonatanssss/Non-Invasive-Hemoglobin-Estimation_-Campus_Project",
+    "image": "hemoglobin-study.svg",
+    "imageAlt": "Abstract red color samples arranged as an image-feature study",
+    "imageCaption": "Concept illustration · Color features and estimation",
+    "intro": "Can color in an image reveal something measurable about the body? This project explores that question through a comparison of regression approaches.",
+    "sections": [
+      { "eyebrow": "01 / The question", "title": "Looking for a relationship in color.", "paragraphs": ["Using the Eyes Defy Anemia dataset, the project explores the relationship between features extracted from conjunctival images and recorded hemoglobin measurements."] },
+      { "eyebrow": "02 / The approach", "title": "Turn image regions into features.", "paragraphs": ["The documented pipeline selects a conjunctival region of interest and extracts color features in RGB, CIELAB, and HSV spaces. It compares Polynomial Ridge Regression with Gradient Boosting.", "The repository describes evaluation using error metrics, correlation, and Bland–Altman analysis."], "steps": ["Select the image region", "Extract color features", "Compare regression approaches"] },
+      { "eyebrow": "03 / Project context", "title": "An academic exploration.", "paragraphs": ["This AI-assisted campus project is an opportunity to explore image processing and regression together. The source and project documentation are available on GitHub; reported metrics have not been independently reproduced for this portfolio.", "The work is not clinically validated and should not be used for diagnosis or medical decisions."] },
+      { "eyebrow": "04 / Next questions", "title": "How much does the camera change?", "paragraphs": ["Lighting, camera settings, and differences between participants can all affect image color. Useful next steps include checking the data splits, examining sensitivity to capture conditions, and evaluating independent data."] }
+    ],
+    "note": "The artwork is a conceptual color study, not patient imagery or a visualization of measured clinical performance."
+  }
+]
