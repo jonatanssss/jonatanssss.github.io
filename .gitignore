@@ -1,0 +1,8 @@
+node_modules/
+dist/
+START-HERE.html
+.openai/
+.DS_Store
+Thumbs.db
+*.zip
+.qa/

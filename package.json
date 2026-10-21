@@ -1,0 +1,15 @@
+{
+  "name": "jonatan-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Jonatan Manurung — physics, engineering, and AI",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "portable": "node scripts/build.mjs && node scripts/portable.mjs"
+  }
+}
